@@ -1,6 +1,21 @@
-import { useState, useEffect } from "react";
+import { useState, useEffect, ButtonHTMLAttributes } from "react";
 import { Moon, Sun, Menu, X } from "lucide-react";
-import { Button } from "@/components/ui/button";
+
+type ButtonProps = ButtonHTMLAttributes<HTMLButtonElement> & {
+  variant?: "ghost" | "default";
+  size?: "icon" | "default";
+};
+
+const Button = ({ variant, size, className = "", children, ...rest }: ButtonProps) => {
+  const base = "inline-flex items-center justify-center rounded-md";
+  const variantClass = variant === "ghost" ? "bg-transparent" : "bg-primary text-white";
+  const sizeClass = size === "icon" ? "p-2" : "px-3 py-1";
+  return (
+    <button className={`${base} ${variantClass} ${sizeClass} ${className}`} {...rest}>
+      {children}
+    </button>
+  );
+};
 
 const Navbar = () => {
   const [isDark, setIsDark] = useState(true);
