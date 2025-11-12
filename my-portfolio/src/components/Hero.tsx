@@ -1,6 +1,6 @@
 import { ArrowDown } from "lucide-react";
 import { Button } from "@/components/ui/button";
-import ParticleBackground from "./ParticleBackground";
+import ParticleBackground from "./ParticleBackground.tsx";
 
 const Hero = () => {
   return (
