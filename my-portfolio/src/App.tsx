@@ -1,13 +1,14 @@
 import { useState } from 'react'
 import './App.css'
-import '../src/components/Navbar.tsx'
-import Navbar from '../src/components/Navbar.tsx';
-import Hero from '../src/components/Hero.tsx';
+import Navbar from './components/Navbar';
+import Hero from './components/Hero';
+import About from './components/About';
 
 const App = () => (
     <>
     <Navbar/>
     <Hero/>
+    <About/>
     </>
 );
 
