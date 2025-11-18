@@ -1,4 +1,7 @@
-import React from 'react'
+import { Mail, Github, Linkedin, Twitter } from "lucide-react";
+import { Button } from "@/components/ui/button";
+import { Card, CardContent } from "@/components/ui/card";
+
 
 const Contact = () => {
   return (
@@ -10,6 +13,26 @@ const Contact = () => {
         <p className="text-center text-muted-foreground text-lg mb-16 max-w-2xl mx-auto">
           Let's connect and explore the possibilities of collaboration across the tech universe
         </p>
+
+            <Card className="bg-card border-2 border-primary/20 box-glow-cyan">
+                  <CardContent className="p-8 sm:p-12">
+                    <div className="text-center mb-8">
+                      <h3 className="text-2xl font-bold mb-4">Ready to start a project?</h3>
+                      <p className="text-muted-foreground mb-8">
+                        I'm always open to discussing new projects, creative ideas, or opportunities to be part of your vision.
+                      </p>
+                      <Button
+                        size="lg"
+                        className="bg-gradient-to-r from-primary to-secondary text-white hover:opacity-90 box-glow-purple text-lg px-8"
+                      >
+                        <Mail className="h-5 w-5 mr-2" />
+                        Send Message
+                      </Button>
+                    </div>
+        
+
+                  </CardContent>
+                </Card>
         </div>
     </section>
   )
