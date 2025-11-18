@@ -4,6 +4,14 @@ import { Card, CardContent } from "@/components/ui/card";
 
 
 const Contact = () => {
+
+    const socialLinks = [
+    { icon: Github, label: "GitHub", href: "#", color: "hover:text-primary" },
+    { icon: Linkedin, label: "LinkedIn", href: "#", color: "hover:text-primary" },
+    { icon: Twitter, label: "Twitter", href: "#", color: "hover:text-primary" },
+    { icon: Mail, label: "Email", href: "#", color: "hover:text-primary" },
+  ];
+  
   return (
     <section id="contact" className="py-20 px-4 sm:px-6 lg:px-8 bg-muted/30">
       <div className="container mx-auto max-w-4xl">
@@ -30,7 +38,27 @@ const Contact = () => {
                       </Button>
                     </div>
         
-
+                    <div className="border-t border-border pt-8 mt-8">
+                      <p className="text-center text-sm text-muted-foreground mb-6">Or connect with me on</p>
+                      <div className="flex justify-center gap-4">
+                        {socialLinks.map((social, index) => {
+                          const Icon = social.icon;
+                          return (
+                            <Button
+                              key={index}
+                              variant="outline"
+                              size="icon"
+                              className={`border-primary/20 ${social.color} transition-all hover:box-glow-cyan`}
+                              asChild
+                            >
+                              <a href={social.href} target="_blank" rel="noopener noreferrer" aria-label={social.label}>
+                                <Icon className="h-5 w-5" />
+                              </a>
+                            </Button>
+                          );
+                        })}
+                      </div>
+                    </div>
                   </CardContent>
                 </Card>
         </div>
