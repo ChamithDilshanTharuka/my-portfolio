@@ -6,8 +6,7 @@ const Footer = () => {
       <div className="container mx-auto max-w-6xl">
         <div className="flex flex-col md:flex-row justify-between items-center gap-4">
           <p className="text-muted-foreground text-sm">
-            © 2024 Tech Universe. Crafted with{" "}
-            <span className="text-primary">❤</span> across the digital cosmos.
+            © 2025 Tech Universe.
           </p>
           <div className="flex gap-6">
             <a href="#home" className="text-sm text-muted-foreground hover:text-primary transition-colors">
