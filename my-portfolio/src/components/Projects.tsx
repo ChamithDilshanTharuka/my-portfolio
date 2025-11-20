@@ -23,7 +23,7 @@ const Projects = () => {
       gradient: "from-primary via-secondary to-primary",
     },
   ];
-
+  return (
       <section id="projects" className="py-20 px-4 sm:px-6 lg:px-8">
       <div className="container mx-auto max-w-6xl">
         <h2 className="text-4xl sm:text-5xl md:text-6xl font-bold text-center mb-4 gradient-text">
@@ -80,7 +80,7 @@ const Projects = () => {
         </div>
       </div>
     </section>
-
+  )
 }
 
 export default Projects
