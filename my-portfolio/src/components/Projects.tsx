@@ -3,6 +3,27 @@ import { Card, CardContent } from "@/components/ui/card";
 import { Button } from "@/components/ui/button";
 
 const Projects = () => {
+    const projects = [
+    {
+      title: "AI-Powered Dashboard",
+      description: "A comprehensive analytics platform leveraging machine learning to provide real-time insights and predictive analysis.",
+      tech: ["React", "Python", "TensorFlow", "PostgreSQL"],
+      gradient: "from-primary to-secondary",
+    },
+    {
+      title: "Blockchain Explorer",
+      description: "Decentralized application for exploring blockchain transactions with advanced visualization and search capabilities.",
+      tech: ["Next.js", "Web3.js", "Solidity", "MongoDB"],
+      gradient: "from-secondary to-primary",
+    },
+    {
+      title: "Real-time Collaboration Suite",
+      description: "Enterprise-grade collaboration platform with live editing, video conferencing, and project management features.",
+      tech: ["React", "WebRTC", "Socket.io", "Redis"],
+      gradient: "from-primary via-secondary to-primary",
+    },
+  ];
+
       <section id="projects" className="py-20 px-4 sm:px-6 lg:px-8">
       <div className="container mx-auto max-w-6xl">
         <h2 className="text-4xl sm:text-5xl md:text-6xl font-bold text-center mb-4 gradient-text">
