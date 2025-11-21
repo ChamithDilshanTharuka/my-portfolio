@@ -11,9 +11,9 @@ const Projects = () => {
       gradient: "from-primary to-secondary",
     },
     {
-      title: "Blockchain Explorer",
-      description: "Decentralized application for exploring blockchain transactions with advanced visualization and search capabilities.",
-      tech: ["Next.js", "Web3.js", "Solidity", "MongoDB"],
+      title: "Food Waste Management System",
+      description: "Decentralized application for donating or receiving excessive foods around urban areas.",
+      tech: ["React.js", "Node.js", "postgreSQL", "Socket.io"],
       gradient: "from-secondary to-primary",
     },
     {
