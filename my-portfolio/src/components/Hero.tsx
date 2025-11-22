@@ -44,7 +44,7 @@ const Hero = () => {
         </div>
 
         {/* Scroll Indicator */}
-        <div className="absolute bottom-10 left-1/2 -translate-x-1/2 animate-bounce">
+        <div className="mt-12 animate-bounce">
           <a href="#about" className="flex flex-col items-center text-primary">
             <span className="text-sm mb-2 font-mono">Scroll to explore</span>
             <ArrowDown className="h-6 w-6" />
