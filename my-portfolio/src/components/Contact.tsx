@@ -25,7 +25,7 @@ const Contact = () => {
             <Card className="bg-card border-2 border-primary/20 box-glow-cyan">
                   <CardContent className="p-8 sm:p-12">
                     <div className="text-center mb-8">
-                      <h3 className="text-2xl font-bold mb-4">Ready to start a project?</h3>
+                      <h3 className="text-2xl font-bold mb-4">Let's Build Soultions🙌</h3>
                       <p className="text-muted-foreground mb-8">
                         I'm always open to discussing new projects, creative ideas, or opportunities to be part of your vision.
                       </p>
