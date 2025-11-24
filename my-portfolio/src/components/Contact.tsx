@@ -31,7 +31,7 @@ const Contact = () => {
                       </p>
                       <Button
                         size="lg"
-                        className="bg-gradient-to-r from-primary to-secondary text-white hover:opacity-90 box-glow-purple text-lg px-8"
+                        // className="bg-econdary text-white hover:opacity-90 box-glow-purple text-lg px-8"
                       >
                         <Mail className="h-5 w-5 mr-2" />
                         Send Message
