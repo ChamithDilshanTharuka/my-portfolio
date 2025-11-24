@@ -8,8 +8,8 @@ const Contact = () => {
     const socialLinks = [
     { icon: Github, label: "GitHub", href: "#", color: "hover:text-primary" },
     { icon: Linkedin, label: "LinkedIn", href: "#", color: "hover:text-primary" },
-    { icon: Twitter, label: "Twitter", href: "#", color: "hover:text-primary" },
-    { icon: Mail, label: "Email", href: "#", color: "hover:text-primary" },
+    // { icon: Twitter, label: "Twitter", href: "#", color: "hover:text-primary" },
+    // { icon: Mail, label: "Email", href: "#", color: "hover:text-primary" },
   ];
   
   return (

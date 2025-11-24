@@ -36,7 +36,7 @@ const Hero = () => {
           <Button
             size="lg"
             variant="outline"
-            className="border-2 border-secondary text-secondary hover:bg-secondary hover:text-secondary-foreground text-lg px-8"
+            className="border-2 border-secondary color:white hover:bg-secondary hover:text-secondary-foreground text-lg px-8"
             asChild
           >
             <a href="#contact">Get in Touch</a>
