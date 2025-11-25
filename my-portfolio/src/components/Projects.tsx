@@ -16,12 +16,12 @@ const Projects = () => {
       tech: ["React.js", "Node.js", "postgreSQL", "Socket.io"],
       gradient: "from-secondary to-primary",
     },
-    {
-      title: "Real-time Collaboration Suite",
-      description: "Enterprise-grade collaboration platform with live editing, video conferencing, and project management features.",
-      tech: ["React", "WebRTC", "Socket.io", "Redis"],
-      gradient: "from-primary via-secondary to-primary",
-    },
+    // {
+    //   title: "Real-time Collaboration Suite",
+    //   description: "Enterprise-grade collaboration platform with live editing, video conferencing, and project management features.",
+    //   tech: ["React", "WebRTC", "Socket.io", "Redis"],
+    //   gradient: "from-primary via-secondary to-primary",
+    // },
   ];
   return (
       <section id="projects" className="py-20 px-4 sm:px-6 lg:px-8">
