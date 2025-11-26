@@ -68,7 +68,7 @@ const Projects = () => {
                   <Button
                     size="sm"
                     variant="outline"
-                    className="flex-1 border-secondary text-secondary hover:bg-secondary hover:text-secondary-foreground"
+                    className="flex-1 border-secondary text-primary hover:bg-secondary hover:text-secondary-foreground"
                   >
                     <Github className="h-4 w-4 mr-2" />
                     Code
