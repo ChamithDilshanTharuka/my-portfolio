@@ -5,28 +5,28 @@ const Skills = () => {
     {
       category: "Frontend",
       skills: [
-        { name: "React", level: 95 },
-        { name: "TypeScript", level: 90 },
-        { name: "Tailwind CSS", level: 92 },
-        { name: "Next.js", level: 88 },
+        { name: "React" },
+        { name: "TypeScript" },
+        { name: "Tailwind CSS" },
+        { name: "Next.js" },
       ],
     },
     {
       category: "Backend",
       skills: [
-        { name: "Node.js", level: 85 },
-        { name: "Python", level: 80 },
-        { name: "PostgreSQL", level: 82 },
-        { name: "MongoDB", level: 78 },
+        { name: "Node.js" },
+        { name: "Python" },
+        { name: "PostgreSQL" },
+        { name: "MongoDB" },
       ],
     },
     {
       category: "Tools & Others",
       skills: [
-        { name: "Git", level: 93 },
-        { name: "Docker", level: 75 },
-        { name: "AWS", level: 70 },
-        { name: "CI/CD", level: 80 },
+        { name: "Git" },
+        { name: "Docker" },
+        { name: "AWS" },
+        { name: "CI/CD" },
       ],
     },
   ];
@@ -53,12 +53,12 @@ const Skills = () => {
                             <div key={skillIndex} className="animate-slide-in" style={{ animationDelay: `${skillIndex * 0.1}s` }}>
                               <div className="flex justify-between mb-2">
                                 <span className="font-mono text-sm">{skill.name}</span>
-                                <span className="font-mono text-sm text-primary">{skill.level}%</span>
+                                {/* <span className="font-mono text-sm text-primary">{skill.level}%</span> */}
                               </div>
                               <div className="h-2 bg-muted rounded-full overflow-hidden">
                                 <div
                                   className="h-full bg-gradient-to-r from-primary to-secondary transition-all duration-1000 ease-out"
-                                  style={{ width: `${skill.level}%` }}
+                                  // style={{ width: `${skill.level}%` }}
                                 />
                               </div>
                             </div>
