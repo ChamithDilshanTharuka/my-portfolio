@@ -54,9 +54,7 @@ const About = () => {
           <p className="text-lg leading-relaxed text-foreground">
             I'm a software developer with a passion for creating innovative solutions that push the boundaries of what's possible. 
             With expertise spanning multiple technologies and frameworks, I specialize in building scalable web applications 
-            that combine stunning design with robust functionality. 
-            {/* My journey through the tech universe has equipped me with 
-            the skills to transform complex problems into elegant, user-friendly solutions. */}
+            that combine stunning design with robust functionality.
           </p>
         </div>
       </div>
