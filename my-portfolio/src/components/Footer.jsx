@@ -6,20 +6,11 @@ const Footer = () => {
       <div className="container mx-auto max-w-6xl">
         <div className="flex flex-col md:flex-row justify-between items-center gap-4">
           <p className="text-muted-foreground text-sm">
-            © 2025 Tech Universe.
+            © <script>document.write(new Date().getFullYear())</script> Portfolio Universe.
           </p>
           <div className="flex gap-6">
-            <a href="#home" className="text-sm text-muted-foreground hover:text-primary transition-colors">
-              Home
-            </a>
-            <a href="#about" className="text-sm text-muted-foreground hover:text-primary transition-colors">
-              About
-            </a>
-            <a href="#projects" className="text-sm text-muted-foreground hover:text-primary transition-colors">
-              Projects
-            </a>
-            <a href="#contact" className="text-sm text-muted-foreground hover:text-primary transition-colors">
-              Contact
+            <a href="#" className="text-sm text-muted-foreground hover:text-primary transition-colors">
+              By Chamith Dilshan Tharuka
             </a>
           </div>
         </div>
