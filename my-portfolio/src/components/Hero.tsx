@@ -39,14 +39,14 @@ const Hero = () => {
             className="border-2 border-secondary color:white hover:bg-secondary hover:text-secondary-foreground text-lg px-8"
             asChild
           >
-            <a href="#contact">Get in Touch</a>
+            <a href="#contact">Contact Me</a>
           </Button>
         </div>
 
         {/* Scroll Indicator */}
         <div className="mt-12 animate-bounce">
           <a href="#about" className="flex flex-col items-center text-primary">
-            <span className="text-sm mb-2 font-mono">Scroll to explore</span>
+            <span className="text-sm mb-2 font-mono">Scroll to Explore</span>
             <ArrowDown className="h-6 w-6" />
           </a>
         </div>
