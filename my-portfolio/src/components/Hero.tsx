@@ -22,7 +22,7 @@ const Hero = () => {
         </h1>
         
         <p className="text-lg sm:text-xl md:text-2xl text-muted-foreground mb-8 animate-slide-in font-mono">
-          Exploring the galaxy of software development
+          Exploring the galaxy of Software Development
         </p>
 
         <div className="flex flex-col sm:flex-row gap-4 justify-center items-center animate-slide-in">
@@ -46,7 +46,7 @@ const Hero = () => {
         {/* Scroll Indicator */}
         <div className="mt-12 animate-bounce">
           <a href="#about" className="flex flex-col items-center text-primary">
-            <span className="text-sm mb-2 font-mono">Scroll to Explore</span>
+            <span className="text-sm mb-2 font-mono">Scroll</span>
             <ArrowDown className="h-6 w-6" />
           </a>
         </div>
