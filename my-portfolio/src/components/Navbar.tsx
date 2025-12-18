@@ -58,7 +58,7 @@ const Navbar = () => {
         <div className="flex items-center justify-between h-16">
           {/* Logo */}
           <a href="#home" className="text-2xl font-bold gradient-text">
-            Portfolio
+            Portfolio Universe
           </a>
 
           {/* Desktop Navigation */}
