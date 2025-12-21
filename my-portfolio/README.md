@@ -1,6 +1,7 @@
 # My Portfolio
 
 A modern, responsive personal portfolio website built with React and Vite.
+Theme - Universe
 
 ## Description
 
@@ -20,7 +21,6 @@ This portfolio showcases my skills, projects, and experience as a developer. It 
 - **Build Tool:** Vite
 - **Styling:** Tailwind CSS
 - **UI Components:** Shadcn/ui
-- **Deployment:** Ready for deployment on Vercel, Netlify, or similar platforms
 
 ## Usage
 
