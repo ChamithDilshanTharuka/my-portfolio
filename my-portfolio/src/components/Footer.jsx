@@ -9,9 +9,9 @@ const Footer = () => {
             © <script>document.write(new Date().getFullYear())</script> Portfolio Universe.
           </p>
           <div className="flex gap-6">
-            <a href="#" className="text-sm text-muted-foreground hover:text-primary transition-colors">
+            {/* <a href="#" className="text-sm text-muted-foreground hover:text-primary transition-colors">
               By Chamith Dilshan Tharuka
-            </a>
+            </a> */}
           </div>
         </div>
       </div>
